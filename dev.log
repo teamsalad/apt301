@@ -1,0 +1,37 @@
+React native apt301 dev log
+
+2020.01.29 (W)
+
+(skipped - env setup previously done)
+	install Homebrew
+	install node
+		~$ brew install node
+	install watchman
+		~$ brew install watchman
+	install Xcode via Mac App Store
+	install Xcode Command Line Tools
+		open Xcode
+		choose "Preferences..." from the Xcode menu
+		go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown
+	install cocoapods
+		~$ sudo gem install cocoapods
+(skipped - env setup previously done)
+
+Create new react native application with react native cli package
+	~$ npx react-native init apt301
+		-> installs react native v0.61
+
+Configure App Signing via Xcode
+	navigate to (./ios/apt301.xcworkspace) in finder and double-click
+	Sign with team: the behind Corp.
+
+Install react native elements
+	~$ npm i react-native-elements —-save
+		-> installs react native elements v1.2.7
+
+Install react-native-vector-icons
+	~$ npm i --save react-native-vector-icons
+		-> installs react native vector icons v6.6.0
+
+Initial commit to git
+	- https://github.com/yjaquinas/apt301.git
