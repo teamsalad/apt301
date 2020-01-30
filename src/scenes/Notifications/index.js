@@ -10,7 +10,7 @@ class NotificationsScene extends Component {
 
   render() {
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <View>
         <Text>알림 리스트</Text>
       </View>
     );

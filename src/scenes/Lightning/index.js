@@ -10,7 +10,7 @@ class LightningScene extends Component {
 
   render() {
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <View>
         <Text>번개 리스트</Text>
       </View>
     );

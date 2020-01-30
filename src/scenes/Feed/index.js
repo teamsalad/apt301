@@ -10,9 +10,9 @@ class FeedScene extends Component {
 
   render() {
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <View>
         <Button
-          title="1"
+          title="피드"
           onPress={() => {
             this.props.navigation.navigate('Feed', {
               id: 1,
@@ -20,7 +20,7 @@ class FeedScene extends Component {
           }}
         />
         <Button
-          title="2"
+          title="피드"
           onPress={() => {
             this.props.navigation.navigate('Feed', {
               id: 2,
@@ -28,7 +28,7 @@ class FeedScene extends Component {
           }}
         />
         <Button
-          title="3"
+          title="피드"
           onPress={() => {
             this.props.navigation.navigate('Feed', {
               id: 3,
@@ -40,7 +40,7 @@ class FeedScene extends Component {
   }
 }
 
-class FeedFragment extends React.Component {
+class FeedScreen extends Component {
   static navigationOptions = ({navigation}) => {
     return {
       title: '피드 ' + navigation.getParam('id', '알 수 없음'),
@@ -63,7 +63,7 @@ class FeedFragment extends React.Component {
 const AppNavigator = createStackNavigator(
   {
     Home: FeedScene,
-    Feed: FeedFragment,
+    Feed: FeedScreen,
   },
   {
     initialRouteName: 'Home',
