@@ -27,7 +27,19 @@ React native apt301 dev log
 	Add scenes to thedirectory structure
 		src/scenes/index.js	
 			Add a container to access each child
-			src/scenes/Feed(, Lightning, Notifications, Settings)/index.js
+			src/scenes/*/index.js
+	
+	Install React Navigation
+		~$ npm install react-navigation
+		~$ npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+		(No need to link in react-native version > 0.60.0)
+		~$ npm install react-navigation-stack @react-native-community/masked-view
+
+	src/App.js
+		Replace React-native:SafeAreaView with React Navigation
+	
+	src/scenes/*
+		Modify each scene's header
 
 2020.01.29 (W)
 	(skipped - env setup previously done)
@@ -40,15 +52,13 @@ React native apt301 dev log
 		Install Xcode Command Line Tools
 			Open Xcode
 			Choose "Preferences..." from the Xcode menu
-			Go to the Locations panel and install the tools by selecting the most
-				recent version in the Command Line Tools dropdown
+			Go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown
 		Install cocoapods
 			~$ sudo gem install cocoapods
 	(skipped - env setup previously done)
 
 	Create new react native application with react native cli package
 		~$ npx react-native init apt301
-			-> v0.61
 
 	Configure App Signing via Xcode
 		Navigate to (./ios/apt301.xcworkspace) in finder and double-click
@@ -56,12 +66,9 @@ React native apt301 dev log
 
 	Install react native elements
 		~$ npm i react-native-elements
-			-> v1.2.7
 		Install react-native-vector-icons subordinate for react native elements
 			~$ npm i react-native-vector-icons
-				-> v6.6.0
-		No need to link react-native and react-native-vector-icons
-			b/c react-native version > 0.60.0
+		(No need to link in react-native version > 0.60.0)
 
 	Initial commit to git
 		- https://github.com/yjaquinas/apt301.git

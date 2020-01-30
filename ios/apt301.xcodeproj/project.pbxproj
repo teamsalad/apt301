@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* apt301Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* apt301Tests.m */; };
-		30DB3C15118D0C74EC96C3B3 /* libPods-apt301-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E978D8D4344FF5F58F42362 /* libPods-apt301-tvOSTests.a */; };
-		5E3F677BC323166FBBD65A0E /* libPods-apt301.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4154180D47F7C8F07723D6A1 /* libPods-apt301.a */; };
-		7F1E6657DAE4CC376768FB9E /* libPods-apt301-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5175F0F04B781376EEE65 /* libPods-apt301-tvOS.a */; };
-		A9EFE4DF9661CBB74653D293 /* libPods-apt301Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C33B81FB16FF7714265FA1 /* libPods-apt301Tests.a */; };
+		3F7184BA8C4B489B97436B35 /* libPods-apt301-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FAA729AA74657EEB56B2B9 /* libPods-apt301-tvOS.a */; };
+		50A697E8EFAE7F312167DEA9 /* libPods-apt301Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E39B6DD319FC104644009141 /* libPods-apt301Tests.a */; };
+		B20A3CD91CB2B8BF391EA6B6 /* libPods-apt301-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9420FCBB71096E4BE8753DED /* libPods-apt301-tvOSTests.a */; };
+		F7AF42AF0EC2EEAC52B0B995 /* libPods-apt301.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7726B918B04D9FFB7ACD6CC7 /* libPods-apt301.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = apt301/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = apt301/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = apt301/main.m; sourceTree = "<group>"; };
-		1746137401A05DEBA12B72C1 /* Pods-apt301Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301Tests.debug.xcconfig"; path = "Target Support Files/Pods-apt301Tests/Pods-apt301Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		24C18E0A59E5D846BE53A7B2 /* Pods-apt301Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301Tests.release.xcconfig"; path = "Target Support Files/Pods-apt301Tests/Pods-apt301Tests.release.xcconfig"; sourceTree = "<group>"; };
+		15FF4320B2FF0B6791FC1B0F /* Pods-apt301-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-apt301-tvOS/Pods-apt301-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1BA34A1D2DD82C902B2FC113 /* Pods-apt301Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301Tests.debug.xcconfig"; path = "Target Support Files/Pods-apt301Tests/Pods-apt301Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		29FAA729AA74657EEB56B2B9 /* libPods-apt301-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* apt301-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apt301-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* apt301-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apt301-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4154180D47F7C8F07723D6A1 /* libPods-apt301.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BDC214F9380162A415E09F6 /* Pods-apt301-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-apt301-tvOS/Pods-apt301-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		62D1B7B872BECF8AF7FCC845 /* Pods-apt301.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301.debug.xcconfig"; path = "Target Support Files/Pods-apt301/Pods-apt301.debug.xcconfig"; sourceTree = "<group>"; };
-		7E978D8D4344FF5F58F42362 /* libPods-apt301-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82C33B81FB16FF7714265FA1 /* libPods-apt301Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DA5175F0F04B781376EEE65 /* libPods-apt301-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB19933EA92B35015DBAC571 /* Pods-apt301-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-apt301-tvOSTests/Pods-apt301-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		CD79C5346940FEF47FE59C66 /* Pods-apt301-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-apt301-tvOSTests/Pods-apt301-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D737A23D7E628ABE37A4CE5C /* Pods-apt301-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOS.release.xcconfig"; path = "Target Support Files/Pods-apt301-tvOS/Pods-apt301-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3669475725B4743BB15CFC62 /* Pods-apt301-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOS.release.xcconfig"; path = "Target Support Files/Pods-apt301-tvOS/Pods-apt301-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3BF8BBA7079CCFE007CEF706 /* Pods-apt301Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301Tests.release.xcconfig"; path = "Target Support Files/Pods-apt301Tests/Pods-apt301Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D033460A397B9D4D570E16A /* Pods-apt301.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301.release.xcconfig"; path = "Target Support Files/Pods-apt301/Pods-apt301.release.xcconfig"; sourceTree = "<group>"; };
+		7726B918B04D9FFB7ACD6CC7 /* libPods-apt301.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9420FCBB71096E4BE8753DED /* libPods-apt301-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB8F57C256F92A7AE1B3FF4 /* Pods-apt301.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301.debug.xcconfig"; path = "Target Support Files/Pods-apt301/Pods-apt301.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E09564A649C92C0DF66D25 /* Pods-apt301-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-apt301-tvOSTests/Pods-apt301-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E39B6DD319FC104644009141 /* libPods-apt301Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-apt301Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EDEE58F2805B6783ED85C47B /* Pods-apt301.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301.release.xcconfig"; path = "Target Support Files/Pods-apt301/Pods-apt301.release.xcconfig"; sourceTree = "<group>"; };
+		FAC9FD106192DF3E7028DBD4 /* Pods-apt301-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apt301-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-apt301-tvOSTests/Pods-apt301-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9EFE4DF9661CBB74653D293 /* libPods-apt301Tests.a in Frameworks */,
+				50A697E8EFAE7F312167DEA9 /* libPods-apt301Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3F677BC323166FBBD65A0E /* libPods-apt301.a in Frameworks */,
+				F7AF42AF0EC2EEAC52B0B995 /* libPods-apt301.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1E6657DAE4CC376768FB9E /* libPods-apt301-tvOS.a in Frameworks */,
+				3F7184BA8C4B489B97436B35 /* libPods-apt301-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DB3C15118D0C74EC96C3B3 /* libPods-apt301-tvOSTests.a in Frameworks */,
+				B20A3CD91CB2B8BF391EA6B6 /* libPods-apt301-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,32 +136,32 @@
 			name = apt301;
 			sourceTree = "<group>";
 		};
-		21A3E6482566D2CC74F1E774 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				62D1B7B872BECF8AF7FCC845 /* Pods-apt301.debug.xcconfig */,
-				EDEE58F2805B6783ED85C47B /* Pods-apt301.release.xcconfig */,
-				4BDC214F9380162A415E09F6 /* Pods-apt301-tvOS.debug.xcconfig */,
-				D737A23D7E628ABE37A4CE5C /* Pods-apt301-tvOS.release.xcconfig */,
-				CD79C5346940FEF47FE59C66 /* Pods-apt301-tvOSTests.debug.xcconfig */,
-				CB19933EA92B35015DBAC571 /* Pods-apt301-tvOSTests.release.xcconfig */,
-				1746137401A05DEBA12B72C1 /* Pods-apt301Tests.debug.xcconfig */,
-				24C18E0A59E5D846BE53A7B2 /* Pods-apt301Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				4154180D47F7C8F07723D6A1 /* libPods-apt301.a */,
-				9DA5175F0F04B781376EEE65 /* libPods-apt301-tvOS.a */,
-				7E978D8D4344FF5F58F42362 /* libPods-apt301-tvOSTests.a */,
-				82C33B81FB16FF7714265FA1 /* libPods-apt301Tests.a */,
+				7726B918B04D9FFB7ACD6CC7 /* libPods-apt301.a */,
+				29FAA729AA74657EEB56B2B9 /* libPods-apt301-tvOS.a */,
+				9420FCBB71096E4BE8753DED /* libPods-apt301-tvOSTests.a */,
+				E39B6DD319FC104644009141 /* libPods-apt301Tests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62CB0951AACE36F2A8B49970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8F57C256F92A7AE1B3FF4 /* Pods-apt301.debug.xcconfig */,
+				4D033460A397B9D4D570E16A /* Pods-apt301.release.xcconfig */,
+				15FF4320B2FF0B6791FC1B0F /* Pods-apt301-tvOS.debug.xcconfig */,
+				3669475725B4743BB15CFC62 /* Pods-apt301-tvOS.release.xcconfig */,
+				FAC9FD106192DF3E7028DBD4 /* Pods-apt301-tvOSTests.debug.xcconfig */,
+				D7E09564A649C92C0DF66D25 /* Pods-apt301-tvOSTests.release.xcconfig */,
+				1BA34A1D2DD82C902B2FC113 /* Pods-apt301Tests.debug.xcconfig */,
+				3BF8BBA7079CCFE007CEF706 /* Pods-apt301Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -179,7 +179,7 @@
 				00E356EF1AD99517003FC87E /* apt301Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				21A3E6482566D2CC74F1E774 /* Pods */,
+				62CB0951AACE36F2A8B49970 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "apt301Tests" */;
 			buildPhases = (
-				5B2BB503C85D56842AC43BAF /* [CP] Check Pods Manifest.lock */,
+				D4DD0BF8CB2A41A86773392B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -223,12 +223,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "apt301" */;
 			buildPhases = (
-				D1B83F543779662AC46D405C /* [CP] Check Pods Manifest.lock */,
+				8BC2A79BF108615AF8D24263 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				4A5D5CF31CBDC07728461387 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "apt301-tvOS" */;
 			buildPhases = (
-				D57F03A98F9A171B12F8605E /* [CP] Check Pods Manifest.lock */,
+				041E1554560CE992A8083DBE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -263,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "apt301-tvOSTests" */;
 			buildPhases = (
-				CED9BCC64E4B716FFC15822C /* [CP] Check Pods Manifest.lock */,
+				EA38AA5E8427508E537D731D /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,6 +378,28 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		041E1554560CE992A8083DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apt301-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,51 +414,55 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5B2BB503C85D56842AC43BAF /* [CP] Check Pods Manifest.lock */ = {
+		4A5D5CF31CBDC07728461387 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-apt301/Pods-apt301-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-apt301Tests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apt301/Pods-apt301-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CED9BCC64E4B716FFC15822C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-apt301-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1B83F543779662AC46D405C /* [CP] Check Pods Manifest.lock */ = {
+		8BC2A79BF108615AF8D24263 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +484,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D57F03A98F9A171B12F8605E /* [CP] Check Pods Manifest.lock */ = {
+		D4DD0BF8CB2A41A86773392B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,7 +499,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-apt301-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-apt301Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA38AA5E8427508E537D731D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apt301-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -584,7 +633,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1746137401A05DEBA12B72C1 /* Pods-apt301Tests.debug.xcconfig */;
+			baseConfigurationReference = 1BA34A1D2DD82C902B2FC113 /* Pods-apt301Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4XGZR9UPQM;
@@ -608,7 +657,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24C18E0A59E5D846BE53A7B2 /* Pods-apt301Tests.release.xcconfig */;
+			baseConfigurationReference = 3BF8BBA7079CCFE007CEF706 /* Pods-apt301Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -629,7 +678,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62D1B7B872BECF8AF7FCC845 /* Pods-apt301.debug.xcconfig */;
+			baseConfigurationReference = BBB8F57C256F92A7AE1B3FF4 /* Pods-apt301.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -650,7 +699,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDEE58F2805B6783ED85C47B /* Pods-apt301.release.xcconfig */;
+			baseConfigurationReference = 4D033460A397B9D4D570E16A /* Pods-apt301.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -670,7 +719,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BDC214F9380162A415E09F6 /* Pods-apt301-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 15FF4320B2FF0B6791FC1B0F /* Pods-apt301-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -698,7 +747,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D737A23D7E628ABE37A4CE5C /* Pods-apt301-tvOS.release.xcconfig */;
+			baseConfigurationReference = 3669475725B4743BB15CFC62 /* Pods-apt301-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -726,7 +775,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD79C5346940FEF47FE59C66 /* Pods-apt301-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = FAC9FD106192DF3E7028DBD4 /* Pods-apt301-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -753,7 +802,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB19933EA92B35015DBAC571 /* Pods-apt301-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = D7E09564A649C92C0DF66D25 /* Pods-apt301-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

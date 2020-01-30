@@ -1,24 +1,26 @@
-import React, {Fragment} from 'react';
-import {SafeAreaView, StyleSheet, StatusBar} from 'react-native';
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
 import {Feed, Lightning, Notifications, Settings} from './scenes';
 
-const styles = StyleSheet.create({
-  root: {
-    flex: 1,
-    backgroundColor: 'white',
+const AppNavigator = createStackNavigator(
+  {
+    Feed: Feed,
+    Lightning: Lightning,
+    Notifications: Notifications,
+    Settings: Settings,
   },
-});
+  {
+    initialRouteName: 'Feed',
+    defaultNavigationOptions: {
+      headerStyle: {
+        backgroundColor: 'red',
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+      },
+    },
+  },
+);
 
-const App = () => {
-  return (
-    <Fragment>
-      <SafeAreaView style={{flex: 0, backgroundColor: 'gainsboro'}} />
-      <SafeAreaView style={styles.root}>
-        <StatusBar barStyle="dark-content" />
-        <Lightning />
-      </SafeAreaView>
-    </Fragment>
-  );
-};
-
-export default App;
+export default createAppContainer(AppNavigator);
