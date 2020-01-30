@@ -1,33 +1,29 @@
 import React, {Component} from 'react';
-import {View, Text, Button} from 'react-native';
+import {View, Text} from 'react-native';
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
 
-export default class Lightning extends Component {
-  static navigationOptions = ({navigation, navigationOptions}) => {
-    const {params} = navigation.state;
-    return {
-      title:
-        '번개 No. ' + navigation.getParam('lightningId', '알 수 없는 번개'),
-      headerStyle: {
-        backgroundColor: navigationOptions.headerTintColor,
-      },
-      headerTintColor: navigationOptions.headerStyle.backgroundColor,
-    };
+class LightningScene extends Component {
+  static navigationOptions = {
+    title: '번개',
   };
 
   render() {
-    const {navigation} = this.props;
-    const {params} = this.props.navigation.state;
-
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text>
-          번개장
-          {JSON.stringify(
-            navigation.getParam('hostNickname', '알 수 없는 유저'),
-          )}
-        </Text>
-        <Text>시간 {params.time}</Text>
+        <Text>번개 리스트</Text>
       </View>
     );
   }
 }
+
+const AppNavigator = createStackNavigator(
+  {
+    Home: LightningScene,
+  },
+  {
+    initialRouteName: 'Home',
+  },
+);
+
+export default createAppContainer(AppNavigator);

@@ -34,12 +34,22 @@ React native apt301 dev log
 		~$ npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 		(No need to link in react-native version > 0.60.0)
 		~$ npm install react-navigation-stack @react-native-community/masked-view
+		link for iOS
+			~$ cd ios
+			~$ pod install
+			~$ cd ..
 
 	src/App.js
 		Replace React-native:SafeAreaView with React Navigation
 	
 	src/scenes/*
 		Modify each scene's header
+
+	Install Tab navigation for the bottom tab navigation
+		~$ npm install react-navigation-tabs
+	
+	src/App.js
+		Replace React Navigation with Bottom Tab Navigation
 
 2020.01.29 (W)
 	(skipped - env setup previously done)

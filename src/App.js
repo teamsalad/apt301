@@ -1,26 +1,22 @@
 import {createAppContainer} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
-import {Feed, Lightning, Notifications, Settings} from './scenes';
+import {createBottomTabNavigator} from 'react-navigation-tabs';
+import {
+  FeedScene,
+  LightningScene,
+  NotificationsScene,
+  SettingsScene,
+} from './scenes';
 
-const AppNavigator = createStackNavigator(
+const TabNavigator = createBottomTabNavigator(
   {
-    Feed: Feed,
-    Lightning: Lightning,
-    Notifications: Notifications,
-    Settings: Settings,
+    피드: FeedScene,
+    번개: LightningScene,
+    알림: NotificationsScene,
+    설정: SettingsScene,
   },
   {
-    initialRouteName: 'Feed',
-    defaultNavigationOptions: {
-      headerStyle: {
-        backgroundColor: 'red',
-      },
-      headerTintColor: '#fff',
-      headerTitleStyle: {
-        fontWeight: 'bold',
-      },
-    },
+    initialRouteName: '피드',
   },
 );
 
-export default createAppContainer(AppNavigator);
+export default createAppContainer(TabNavigator);

@@ -1,4 +1,4 @@
-export {default as Feed} from './Feed';
-export {default as Lightning} from './Lightning';
-export {default as Notifications} from './Notifications';
-export {default as Settings} from './Settings';
+export {default as FeedScene} from './Feed';
+export {default as LightningScene} from './Lightning';
+export {default as NotificationsScene} from './Notifications';
+export {default as SettingsScene} from './Settings';

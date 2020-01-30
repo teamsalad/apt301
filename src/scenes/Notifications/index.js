@@ -1,26 +1,29 @@
 import React, {Component} from 'react';
-import {View, Text, Button} from 'react-native';
+import {View, Text} from 'react-native';
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
 
-export default class Notifications extends Component {
-  static navigationOptions = ({navigation}) => {
-    return {
-      title: '알림 ' + navigation.getParam('toggle', 'true'),
-    };
+class NotificationsScene extends Component {
+  static navigationOptions = {
+    title: '알림',
   };
 
   render() {
-    const {params} = this.props.navigation.state;
-
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text>알림리스트</Text>
-        <Button
-          title="알림 설정 변경"
-          onPress={() => {
-            this.props.navigation.setParams({toggle: !params.toggle});
-          }}
-        />
+        <Text>알림 리스트</Text>
       </View>
     );
   }
 }
+
+const AppNavigator = createStackNavigator(
+  {
+    Home: NotificationsScene,
+  },
+  {
+    initialRouteName: 'Home',
+  },
+);
+
+export default createAppContainer(AppNavigator);
