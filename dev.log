@@ -1,37 +1,67 @@
 React native apt301 dev log
 
+2020.01.30 (R)
+	Replace App.js with React Native Elements components
+	
+	Re-organize src (directory structure)
+	├── index.js
+	├── src
+	│   ├── App.js
+	│   ├── scenes
+	│   │   ├── index.js
+	│   │   ├── Feed
+	│   │   │   ├── index.js
+	│   │   ├── Lightning
+	│   │   │   ├── index.js
+	│   │   ├── Notifications
+	│   │   │   ├── index.js
+	│   │   ├── Settings
+	│   │   │   ├── index.js
+	│   ├── assets
+	│   │   ├── images
+
+	src/App.js
+		React-native:SafeAreaView
+			separates the app into status bar section and main section
+	
+	Add scenes to thedirectory structure
+		src/scenes/index.js	
+			Add a container to access each child
+			src/scenes/Feed(, Lightning, Notifications, Settings)/index.js
+
 2020.01.29 (W)
+	(skipped - env setup previously done)
+		Install Homebrew
+		Install node
+			~$ brew install node
+		Install watchman
+			~$ brew install watchman
+		Install Xcode via Mac App Store
+		Install Xcode Command Line Tools
+			Open Xcode
+			Choose "Preferences..." from the Xcode menu
+			Go to the Locations panel and install the tools by selecting the most
+				recent version in the Command Line Tools dropdown
+		Install cocoapods
+			~$ sudo gem install cocoapods
+	(skipped - env setup previously done)
 
-(skipped - env setup previously done)
-	install Homebrew
-	install node
-		~$ brew install node
-	install watchman
-		~$ brew install watchman
-	install Xcode via Mac App Store
-	install Xcode Command Line Tools
-		open Xcode
-		choose "Preferences..." from the Xcode menu
-		go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown
-	install cocoapods
-		~$ sudo gem install cocoapods
-(skipped - env setup previously done)
+	Create new react native application with react native cli package
+		~$ npx react-native init apt301
+			-> v0.61
 
-Create new react native application with react native cli package
-	~$ npx react-native init apt301
-		-> installs react native v0.61
+	Configure App Signing via Xcode
+		Navigate to (./ios/apt301.xcworkspace) in finder and double-click
+		Sign with team: the behind Corp.
 
-Configure App Signing via Xcode
-	navigate to (./ios/apt301.xcworkspace) in finder and double-click
-	Sign with team: the behind Corp.
+	Install react native elements
+		~$ npm i react-native-elements
+			-> v1.2.7
+		Install react-native-vector-icons subordinate for react native elements
+			~$ npm i react-native-vector-icons
+				-> v6.6.0
+		No need to link react-native and react-native-vector-icons
+			b/c react-native version > 0.60.0
 
-Install react native elements
-	~$ npm i react-native-elements —-save
-		-> installs react native elements v1.2.7
-
-Install react-native-vector-icons
-	~$ npm i --save react-native-vector-icons
-		-> installs react native vector icons v6.6.0
-
-Initial commit to git
-	- https://github.com/yjaquinas/apt301.git
+	Initial commit to git
+		- https://github.com/yjaquinas/apt301.git
